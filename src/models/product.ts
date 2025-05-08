@@ -2,7 +2,8 @@ export interface Product{
     ProductId: number,
     ProductName: string,
     Description: string,
-    Quantiyy: number,
+    Quantity: number,
     Price: number,
-    Total: number
+    Total: number,
+    OrderDate: Date
 }
